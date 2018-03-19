@@ -2,6 +2,14 @@ package parsing_json;
 
 import java.util.ArrayList;
 
+/*
+Element:
+
+The Element class should be a POJO that only implements getters.
+You should refer to the json to see what the attribute types should be.
+for decimal places, use double and avoid using float.
+ */
+
 public class Element {
 
     private String name;
